@@ -26,7 +26,7 @@ body{
   max-width: 1200px;
 }
 nav{
-  background: #350a4f;
+  background:#350a4f;
 }
 
 nav img{
@@ -70,7 +70,7 @@ padding: 0 15px 0 15px;
 }
 
 .navbar-nav li a.active{
-  color: #5a5a5a !important;
+  color: #5a5a5a;
 }
 
 .showcase{
@@ -81,8 +81,6 @@ padding: 0 15px 0 15px;
   background-size: cover;
   background-repeat: no-repeat;
 }
-
-
 .wrapper{
  position: absolute;
  top: 40%;
