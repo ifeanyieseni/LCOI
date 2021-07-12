@@ -26,7 +26,7 @@ body{
   max-width: 1200px;
 }
 nav{
-  background: rgba(0, 0, 0, 0.424);
+  background: #350a4f;
 }
 
 nav img{
@@ -69,14 +69,20 @@ padding: 0 15px 0 15px;
   transform: scaleX(1);
 }
 
+.navbar-nav li a.active{
+  color: #5a5a5a !important;
+}
+
 .showcase{
-  background: linear-gradient(315deg, rgba(53, 10, 79, 0.871), rgba(53,10,79,.7)), url("img/worship.jpg");
+  background: url("img/worship.jpg");
   width: 100%;
   height: 100vh;
   background-position: 100% 100%;
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+
 .wrapper{
  position: absolute;
  top: 40%;
